@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
     query SiteTitleQuery {
       site {
         siteMetadata {
-          title
+          description
         }
       }
     }
@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header siteDescription={data.site.siteMetadata.description} />
       <div
         style={{
           margin: `0 auto`,
