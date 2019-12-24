@@ -1,13 +1,7 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import styled from "styled-components"
 
 import Header from "./header"
 import Menu from "./menu"
@@ -26,23 +20,20 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteDescription={data.site.siteMetadata.description} />
-      <Menu />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
-        }}
-      >
+      <OuterTopContainer>
+        <InnerTopContainer>
+          <Header siteDescription={data.site.siteMetadata.description} />
+          <Menu />
+        </InnerTopContainer>
+      </OuterTopContainer>
+      <MainContainer>
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
-      </div>
+      </MainContainer>
     </>
   )
 }
@@ -50,5 +41,23 @@ const Layout = ({ children }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
+
+const OuterTopContainer = styled.div`
+  padding: 0 20px;
+  background: rgb(51, 54, 59);
+`
+
+const InnerTopContainer = styled.div`
+  min-width: 320px;
+  max-width: 1380px;
+  width: 100%;
+  margin: 0 auto;
+`
+
+const MainContainer = styled.div`
+  padding: 0px 1.0875rem 1.45rem;
+  max-width: 960px;
+  margin: 0 auto;
+`
 
 export default Layout
