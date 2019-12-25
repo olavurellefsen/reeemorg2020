@@ -2,12 +2,12 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 import React from "react"
-import Logo from "./logo"
+import reeemLogo from "../images/reeem-logo.png"
 
 const Header = ({ siteDescription }) => (
   <HeaderStyle>
     <LogoLinkStyle to="/">
-      <Logo />
+      <img src={reeemLogo} alt="REEEM logo" />
     </LogoLinkStyle>
     <SiteDescriptionStyle>{siteDescription}</SiteDescriptionStyle>
   </HeaderStyle>
@@ -30,6 +30,8 @@ const HeaderStyle = styled.header`
 `
 
 const LogoLinkStyle = styled(props => <Link {...props} />)`
+  display: flex;
+  align-items: center;
 `
 
 const SiteDescriptionStyle = styled.div`
