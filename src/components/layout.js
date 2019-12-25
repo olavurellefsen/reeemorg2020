@@ -67,14 +67,14 @@ const InnerTopContainer = styled.div`
 const MainContainer = styled.div`
   display: flex;
   justify-content: center;
-  padding: 0px;
-  min-width: 320px;
-  max-width: 1380px;
-  margin: 0 auto;
+  background: #eaeaea;
+  padding: 0px 0px 60px 0px;
 `
 
 const MainArea = styled.main`
   flex: 1 0 780px;
+  min-width: 320px;
+  max-width: 780px;
 `
 
 const HigherBottomContainer = styled.div`

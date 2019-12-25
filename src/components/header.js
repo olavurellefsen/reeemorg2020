@@ -7,7 +7,7 @@ import reeemLogo from "../images/reeem-logo.png"
 const Header = ({ siteDescription }) => (
   <HeaderStyle>
     <LogoLinkStyle to="/">
-      <img src={reeemLogo} alt="REEEM logo" />
+      <ImgStyle src={reeemLogo} alt="REEEM logo" />
     </LogoLinkStyle>
     <SiteDescriptionStyle>{siteDescription}</SiteDescriptionStyle>
   </HeaderStyle>
@@ -26,12 +26,16 @@ const HeaderStyle = styled.header`
   justify-content: flex-start;
   align-items: center;
   background: rgb(51, 54, 59);
-  padding: 30px 50px;
+  padding: 30px;
 `
 
 const LogoLinkStyle = styled(props => <Link {...props} />)`
   display: flex;
   align-items: center;
+`
+
+const ImgStyle = styled.img`
+  margin: 0;
 `
 
 const SiteDescriptionStyle = styled.div`

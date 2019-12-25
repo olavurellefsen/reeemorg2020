@@ -25,7 +25,7 @@ const LowerFooterStyle = styled.div`
 `
 
 const CopyrightStyle = styled.a`
-  font-size: 15px;
+  font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.7);
 `
 
@@ -33,6 +33,9 @@ const TwitterStyle = styled.a`
   font-size: 1.75em;
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
+  &:hover {
+    color: rgba(255, 255, 255, 1);
+  }
 `
 
 export default LowerFooter

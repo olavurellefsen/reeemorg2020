@@ -32,7 +32,7 @@ const NavStyle = styled.nav`
   justify-content: flex-start;
   align-items: center;
   background: rgb(51, 54, 59);
-  padding: 0px 20px;
+  padding: 0;
   list-style: none;
 `
 

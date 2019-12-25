@@ -1,71 +1,158 @@
 import { Link } from "gatsby"
 import styled from "styled-components"
 import React from "react"
-import latestDeliverables from "./latestDeliverables"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import tickmark from "../images/tickmark.png"
+import latestDeliverables from "./latestDeliverables"
 
 const LeftArea = () => (
   <LeftAreaContainer>
-    <TopLeftArea>FOLLOW:</TopLeftArea>
-    <MainLeftArea>
-      <img src={tickmark} alt="Tickmark" />
-      <h2>LATEST DELIVERABLES</h2>
-      {latestDeliverables.map(deliverable => (
+    <TopLeftContainer>
+      <TopLeftArea>
+        <FollowStyle>FOLLOW:</FollowStyle>
+        <TwitterStyle href="https://twitter.com/ReeemProject">
+          <FontAwesomeIcon icon={faTwitter} />
+        </TwitterStyle>
+      </TopLeftArea>
+    </TopLeftContainer>
+    <MainLeftContainer>
+      <MainLeftArea>
+        <h4>
+          <ImgStyle src={tickmark} alt="Tickmark" />
+          LATEST DELIVERABLES
+        </h4>
+        {latestDeliverables.map((deliverable, index) => (
+          <p key={index}>
+            <Deliverable href={deliverable.link}>
+              {deliverable.name}
+            </Deliverable>
+          </p>
+        ))}
         <p>
-          <a href={deliverable.link} id={deliverable.name}>
-            {deliverable.name}
-          </a>
+          <LinkStyle to="/deliverables-by-theme">
+            See all deliverables HERE
+          </LinkStyle>
         </p>
-      ))}
-      <Link to="/deliverables-by-theme">See all deliverables HERE</Link>
+        <HeadingStyle>PROJECT FACT SHEET</HeadingStyle>
+        <p>
+          <b>Acronym</b>: REEEM
+          <br />
+          <b>Title</b>: Role of technologies in an energy efficient economy –
+          model based analysis policy measures and transformation pathways to a
+          sustainable energy system
+          <br />
+          <b>Call</b>: H2020-LCE
+          <br />
+          <b>Funding scheme</b>: RIA – Research and innovation action
+          <br />
+          <b>Grant agreement no.</b>: 691739
+          <br />
+          <b>Duration</b>: 42 Months
+          <br />
+          <b>Start date</b>: February 2016
+          <br />
+          <b>Estimated Project cost</b>: €3,997,458.75
+          <br />
+          <b>Requested EU contribution</b>: €3,997,458.75
+          <br />
+          <b>Total effort</b>: 423.5 Person-months
+          <br />
+          <b>Project coordinator</b>: Mark Howells – Department of Energy
+          Technology, School of Industrial Engineering and Management, Kungliga
+          Tekniska Högskolan (KTH Royal Institute of Technology)
+          <br />
+          <b>Project Officer</b>: Manuela Conconi
+        </p>
 
-      <h2>PROJECT FACT SHEET</h2>
-      <p>Acronym: REEEM</p>
-      <p>
-        Title: Role of technologies in an energy efficient economy – model based
-        analysis policy measures and transformation pathways to a sustainable
-        energy system
-      </p>
-      <p>Call: H2020-LCE</p>
-      <p>Funding scheme: RIA – Research and innovation action</p>
-      <p>Grant agreement no.: 691739</p>
-      <p>Duration: 42 Months</p>
-      <p>Start date: February 2016</p>
-      <p>Estimated Project cost: €3,997,458.75</p>
-      <p>Requested EU contribution: €3,997,458.75</p>
-      <p>Total effort: 423.5 Person-months</p>
-      <p>
-        Project coordinator: Mark Howells – Department of Energy Technology,
-        School of Industrial Engineering and Management, Kungliga Tekniska
-        Högskolan (KTH Royal Institute of Technology)
-      </p>
-      <p>Project Officer: Manuela Conconi</p>
+        <HeadingStyle>UPCOMING EVENTS</HeadingStyle>
+        <p>There are no upcoming events at this time.</p>
 
-      <h2>UPCOMING EVENTS</h2>
-      <p>There are no upcoming events at this time.</p>
-
-      <Link to="/events">See previous events HERE</Link>
-    </MainLeftArea>
+        <p>
+          <LinkStyle to="/events">See previous events HERE</LinkStyle>
+        </p>
+      </MainLeftArea>
+    </MainLeftContainer>
   </LeftAreaContainer>
 )
 
 const LeftAreaContainer = styled.div`
-  flex: 0 1 340px;
+  flex: 1 0 340px;
   color: #777;
-  font-size: 15px;
+  font-size: 1rem;
   background: white;
   margin: 0px;
   line-height: 24px;
 `
 
+const TopLeftContainer = styled.div`
+  background: rgb(51, 54, 59);
+  display: flex;
+  justify-content: flex-end;
+`
+
 const TopLeftArea = styled.div`
+  display: flex;
+  justify-content: space-between;
+  min-width: 340px;
+  max-width: 340px;
   color: white;
   background: #3b8dbd;
+  padding: 15px 30px;
+`
+
+const FollowStyle = styled.p`
+  font-size: 1rem;
+  margin: 0;
+`
+
+const TwitterStyle = styled.a`
+  font-size: 1.75em;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  &:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+`
+
+const MainLeftContainer = styled.div`
+  background: #eaeaea;
+  display: flex;
+  justify-content: flex-end;
 `
 
 const MainLeftArea = styled.div`
+  min-width: 340px;
+  max-width: 340px;
   color: #777;
   background: #f0f0f0;
+  padding: 30px;
+`
+
+const HeadingStyle = styled.h4`
+  padding-top: 40px;
+`
+
+const ImgStyle = styled.img`
+  margin: 0;
+`
+
+const Deliverable = styled.a`
+  font-size: 1rem;
+  color: #777;
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+`
+
+const LinkStyle = styled(props => <Link {...props} />)`
+  font-size: 1rem;
+  color: #777;
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
 `
 
 export default LeftArea
