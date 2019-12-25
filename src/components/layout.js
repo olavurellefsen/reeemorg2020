@@ -6,6 +6,10 @@ import styled from "styled-components"
 import Header from "./header"
 import Menu from "./menu"
 import menuLinks from "./menuLinks"
+import HigherFooter from "./higherFooter"
+import LeftArea from "./leftArea"
+import RightArea from "./rightArea"
+import LowerFooter from "./lowerFooter"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -28,13 +32,18 @@ const Layout = ({ children }) => {
         </InnerTopContainer>
       </OuterTopContainer>
       <MainContainer>
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        <LeftArea />
+        <MainArea>{children}</MainArea>
+        <RightArea />
       </MainContainer>
+      <footer>
+        <HigherBottomContainer>
+          <HigherFooter />
+        </HigherBottomContainer>
+        <LowerBottomContainer>
+          <LowerFooter />
+        </LowerBottomContainer>
+      </footer>
     </>
   )
 }
@@ -56,9 +65,32 @@ const InnerTopContainer = styled.div`
 `
 
 const MainContainer = styled.div`
-  padding: 0px 1.0875rem 1.45rem;
-  max-width: 960px;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  min-width: 320px;
+  max-width: 1380px;
   margin: 0 auto;
+`
+
+const MainArea = styled.main`
+  flex: 1 0 780px;
+`
+
+const HigherBottomContainer = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  min-width: 320px;
+  max-width: 1380px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 0 20px;
+  background: white;
+`
+
+const LowerBottomContainer = styled.div`
+  padding: 0 20px;
+  background: rgb(51, 54, 59);
 `
 
 export default Layout
