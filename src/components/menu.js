@@ -2,15 +2,17 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 import React from "react"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faCaretDown } from "@fortawesome/free-solid-svg-icons"
 
 const Menu = ({ menuLinks }) => (
   <NavStyle>
     <MenuListStyle>
       {menuLinks.map(link => (
         <MenuItemStyle key={link.name}>
-          <LinkStyle to={link.link}>{link.name}{" "}<FontAwesomeIcon icon={faCaretDown} /></LinkStyle>
+          <LinkStyle to={link.link}>
+            {link.name} <FontAwesomeIcon icon={faCaretDown} />
+          </LinkStyle>
         </MenuItemStyle>
       ))}
     </MenuListStyle>
@@ -22,15 +24,7 @@ Menu.propTypes = {
 }
 
 Menu.defaultProps = {
-  menuLinks: [
-    { name: "About", link: "/objectives" },
-    { name: "Output", link: "/deliverables-by-theme" },
-    { name: "EMP-E", link: "/emp-e-2019" },
-    { name: "Concept", link: "/pathways" },
-    { name: "Tools", link: "/osemosys" },
-    { name: "News & Blog", link: "/sample-page" },
-    { name: "Contact", link: "/contact-us" },
-  ],
+  menuLinks: [],
 }
 
 const NavStyle = styled.nav`

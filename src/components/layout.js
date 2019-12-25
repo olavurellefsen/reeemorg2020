@@ -5,6 +5,7 @@ import styled from "styled-components"
 
 import Header from "./header"
 import Menu from "./menu"
+import menuLinks from "./menuLinks"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -23,7 +24,7 @@ const Layout = ({ children }) => {
       <OuterTopContainer>
         <InnerTopContainer>
           <Header siteDescription={data.site.siteMetadata.description} />
-          <Menu />
+          <Menu menuLinks={menuLinks} />
         </InnerTopContainer>
       </OuterTopContainer>
       <MainContainer>
