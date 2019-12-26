@@ -12,7 +12,7 @@ import RightArea from "./rightArea"
 import LowerFooter from "./lowerFooter"
 import "./layout.css"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, pageTitle }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -33,7 +33,10 @@ const Layout = ({ children }) => {
       </OuterTopContainer>
       <MainContainer>
         <LeftArea />
-        <MainArea>{children}</MainArea>
+        <MainAreaContainer>
+          <PageTitleStyle>{pageTitle}</PageTitleStyle>
+          <MainArea>{children}</MainArea>
+        </MainAreaContainer>
         <RightArea />
       </MainContainer>
       <footer>
@@ -50,6 +53,11 @@ const Layout = ({ children }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  pageTitle: PropTypes.string,
+}
+
+Layout.defaultProps = {
+  pageTitle: ``,
 }
 
 const OuterTopContainer = styled.div`
@@ -69,12 +77,26 @@ const MainContainer = styled.div`
   justify-content: center;
   background: #eaeaea;
   padding: 0px 0px 60px 0px;
+  font-size: 1rem;
+  line-height: 24px;
 `
 
-const MainArea = styled.main`
+const MainAreaContainer = styled.main`
   flex: 1 0 780px;
   min-width: 320px;
   max-width: 780px;
+  background: white;
+`
+
+const PageTitleStyle = styled.div`
+  font-weight: bold;
+  color: #666;
+  padding: 15px 30px;
+  border-bottom: 1px solid #eee;
+`
+
+const MainArea = styled.main`
+  padding: 30px;
 `
 
 const HigherBottomContainer = styled.div`
