@@ -11,8 +11,10 @@ import LeftArea from "./leftArea"
 import RightArea from "./rightArea"
 import LowerFooter from "./lowerFooter"
 import "./layout.css"
+import twitterLogo from "../images/twitter.png"
+import linkedinLogo from "../images/linkedin.png"
 
-const Layout = ({ children, pageTitle }) => {
+const Layout = ({ children, pageTitle, location, showSocialMedia }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -22,7 +24,6 @@ const Layout = ({ children, pageTitle }) => {
       }
     }
   `)
-
   return (
     <>
       <OuterTopContainer>
@@ -34,8 +35,10 @@ const Layout = ({ children, pageTitle }) => {
       <MainContainer>
         <LeftArea />
         <MainAreaContainer>
-          <PageTitleStyle>{pageTitle}</PageTitleStyle>
+          <PageTitleStyle>{pageTitle.toUpperCase()}</PageTitleStyle>
+          {showSocialMedia.indexOf('top')!==-1 && <SocialMedia pageTitle={pageTitle} location={location} />}
           <MainArea>{children}</MainArea>
+          {showSocialMedia.indexOf('bottom')!==-1 && <SocialMedia pageTitle={pageTitle} location={location} />}
         </MainAreaContainer>
         <RightArea />
       </MainContainer>
@@ -51,13 +54,38 @@ const Layout = ({ children, pageTitle }) => {
   )
 }
 
+const SocialMedia = ({ pageTitle, location }) => (
+  <>
+    {!(
+      Object.entries(location).length === 0 && location.constructor === Object
+    ) && (
+      <SocialMediaContainer>
+        <a
+          href={`http://twitter.com/share?url=${location.href}&text=${pageTitle}`}
+        >
+          <SocialMediaIcon src={twitterLogo} />
+        </a>
+        <a
+          href={`http://www.linkedin.com/shareArticle?mini=true&url=${location.href}`}
+        >
+          <SocialMediaIcon src={linkedinLogo} />
+        </a>
+      </SocialMediaContainer>
+    )}
+  </>
+)
+
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
   pageTitle: PropTypes.string,
+  location: PropTypes.object,
+  showSocialMedia: PropTypes.array,
 }
 
 Layout.defaultProps = {
   pageTitle: ``,
+  location: {},
+  showSocialMedia: ['bottom'],
 }
 
 const OuterTopContainer = styled.div`
@@ -79,6 +107,19 @@ const MainContainer = styled.div`
   padding: 0px 0px 60px 0px;
   font-size: 1rem;
   line-height: 24px;
+`
+
+const SocialMediaContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  margin-bottom: -30px;
+`
+
+const SocialMediaIcon = styled.img`
+  width: 47px;
+  height: 47px;
+  padding: 6px;
 `
 
 const MainAreaContainer = styled.main`
