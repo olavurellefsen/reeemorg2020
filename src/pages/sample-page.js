@@ -6,8 +6,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 export default ({ data }) => (
-  <Layout pageTitle="NEWS">
-    <SEO title="NEWS" />
+  <Layout pageTitle="News">
+    <SEO title="News" />
     {data.allMarkdownRemark.edges.map(({ node }, index) => {
       console.log(node.frontmatter.title)
       return(

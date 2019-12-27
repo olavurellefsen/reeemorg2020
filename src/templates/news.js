@@ -3,11 +3,11 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import styled from "styled-components"
 
-export default function Template({ data }) {
+export default function Template({ data, location }) {
   const { markdownRemark } = data
   const { html, frontmatter } = markdownRemark
   return (
-    <Layout pageTitle={frontmatter.title}>
+    <Layout pageTitle={frontmatter.title} location={location}>
       <StyledMain>
         <StyledTitle>{frontmatter.title}</StyledTitle>
         <StyledDate>{frontmatter.date.toUpperCase()}</StyledDate>
