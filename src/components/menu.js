@@ -3,16 +3,51 @@ import PropTypes from "prop-types"
 import styled from "styled-components"
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCaretDown } from "@fortawesome/free-solid-svg-icons"
+import { faCaretDown, faCaretRight } from "@fortawesome/free-solid-svg-icons"
 
 const Menu = ({ menuLinks }) => (
   <NavStyle>
     <MenuListStyle>
       {menuLinks.map(link => (
         <MenuItemStyle key={link.name}>
-          <LinkStyle to={link.link}>
-            {link.name} <FontAwesomeIcon icon={faCaretDown} />
-          </LinkStyle>
+          <TopLinkStyle to={link.link}>{link.name} </TopLinkStyle>
+          {link.hasOwnProperty("submenu") ? (
+            <>
+              <TopLinkStyle to={link.link}>
+                <FontAwesomeIcon icon={faCaretDown} />
+              </TopLinkStyle>
+              <DropdownContentStyle>
+                {link.submenu.map(sublink => (
+                  <SubItemStyle key={sublink.name}>
+                    <SubLinkStyle to={sublink.link}>
+                      {sublink.name}
+                    </SubLinkStyle>
+                    {sublink.hasOwnProperty("submenu") ? (
+                      <>
+                        <SubLinkIconStyle to={sublink.link}>
+                          {" "}
+                          <FontAwesomeIcon icon={faCaretRight} />
+                        </SubLinkIconStyle>
+                        <DroprightContentStyle>
+                          {sublink.submenu.map(subsublink => (
+                            <SubItemStyle key={subsublink.name}>
+                              <SubLinkStyle to={subsublink.link}>
+                                {subsublink.name}
+                              </SubLinkStyle>
+                            </SubItemStyle>
+                          ))}
+                        </DroprightContentStyle>
+                      </>
+                    ) : (
+                      ""
+                    )}
+                  </SubItemStyle>
+                ))}
+              </DropdownContentStyle>
+            </>
+          ) : (
+            ""
+          )}
         </MenuItemStyle>
       ))}
     </MenuListStyle>
@@ -48,18 +83,75 @@ const MenuListStyle = styled.ul`
 `
 
 const MenuItemStyle = styled.li`
-  font-size: 1rem;
+  position: relative;
   display: inline-block;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
   margin: 0;
   padding: 15px 14px;
 `
 
-const LinkStyle = styled(props => <Link {...props} />)`
+const TopLinkStyle = styled(props => <Link {...props} />)`
   color: rgba(255, 255, 255, 0.7);
   line-height: 1.25rem;
   text-decoration: none;
   &:hover {
     color: rgba(255, 255, 255, 1);
+  }
+`
+
+const DropdownContentStyle = styled.ul`
+  display: none;
+  position: absolute;
+  background: #0a0a0a;
+  min-width: 160px;
+  z-index: 1;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0 0 0 -10px;
+  ${MenuItemStyle}:hover & {
+    display: block;
+  }
+`
+
+const SubItemStyle = styled.li`
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  padding: 10px 10px;
+  margin: 0;
+`
+
+const SubLinkStyle = styled(props => <Link {...props} />)`
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.25rem;
+  text-decoration: none;
+  &:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+`
+
+const SubLinkIconStyle = styled(props => <Link {...props} />)`
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.25rem;
+  text-decoration: none;
+  float: right;
+  &:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+`
+
+const DroprightContentStyle = styled.ul`
+  display: none;
+  position: absolute;
+  background: #0a0a0a;
+  min-width: 160px;
+  z-index: 1;
+  list-style: none;
+  padding: 10px 0;
+  left: 150px;
+  margin: -30px 0 0 5px;
+  ${SubItemStyle}:hover & {
+    display: block;
   }
 `
 
