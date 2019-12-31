@@ -14,7 +14,7 @@ const Menu = ({ menuLinks }) => (
           {link.hasOwnProperty("submenu") ? (
             <>
               <TopLinkStyle to={link.link}>
-                <FontAwesomeIcon icon={faCaretDown} />
+                <FontAwesomeIcon icon={faCaretDown} size="1x" />
               </TopLinkStyle>
               <DropdownContentStyle>
                 {link.submenu.map(sublink => (
