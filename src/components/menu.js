@@ -4,6 +4,9 @@ import styled from "styled-components"
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCaretDown, faCaretRight } from "@fortawesome/free-solid-svg-icons"
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 
 const Menu = ({ menuLinks }) => (
   <NavStyle>
@@ -14,7 +17,7 @@ const Menu = ({ menuLinks }) => (
           {link.hasOwnProperty("submenu") ? (
             <>
               <TopLinkStyle to={link.link}>
-                <FontAwesomeIcon icon={faCaretDown} size="1x" />
+                <FontAwesomeIcon icon={faCaretDown} />
               </TopLinkStyle>
               <DropdownContentStyle>
                 {link.submenu.map(sublink => (
