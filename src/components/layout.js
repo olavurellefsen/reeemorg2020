@@ -113,7 +113,7 @@ const SocialMediaContainer = styled.div`
   display: flex;
   justify-content: center;
   padding-top: 30px;
-  margin-bottom: -30px;
+  margin-bottom: -20px;
 `
 
 const SocialMediaIcon = styled.img`
