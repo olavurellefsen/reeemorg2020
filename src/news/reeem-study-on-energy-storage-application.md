@@ -17,4 +17,4 @@ To complement the energy storage roadmap, the REEEM **Innovation Readiness Level
 
 The **findings** illustrate potentials and risks of different storage technologies to access the market. It also suggests improvements in the innovation processes of these technologies to accelerate their access to the market. The results provide suggestions for policymakers, investors and industries about strengths and drawbacks of the **innovation processes** of the studied technologies.
 
-**Download the reports:** [**D2.1a "Technology Roadmaps"**](http://www.reeem.org/wp-content/uploads/2018/09/D2.1a.pdf) and [**D2.2a "Innovation Readiness Level assessments"**](http://www.reeem.org/wp-content/uploads/2017/09/REEEM-D2.2a.pdf)
+**Download the reports:** [**D2.1a "Technology Roadmaps"**](https://www.reeem.org/wp-content/uploads/2018/09/D2.1a.pdf) and [**D2.2a "Innovation Readiness Level assessments"**](https://www.reeem.org/wp-content/uploads/2017/09/REEEM-D2.2a.pdf)

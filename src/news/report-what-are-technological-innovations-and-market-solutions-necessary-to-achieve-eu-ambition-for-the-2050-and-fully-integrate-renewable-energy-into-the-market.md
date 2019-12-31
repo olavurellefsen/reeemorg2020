@@ -15,4 +15,4 @@ The roadmap results are complemented with the assessment of Innovation Readiness
 
 The findings of the IRL assessments shed light on factors and processes that are prerequisites for a successful technology development and access to the EU electricity market. The reports highlight points in the innovation processes of the studied technologies that can effectively improve their competitiveness in accessing the European electricity market. The results, therefore, provide suggestions for policymakers, investors and industries about the strengths and drawbacks of the innovation processes of the studied renewable technologies.
 
-After the acceptance of the reports, the full versions can be found [here](http://www.reeem.org/index.php/deliverables/).
+After the acceptance of the reports, the full versions can be found [here](https://www.reeem.org/index.php/deliverables/).

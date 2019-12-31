@@ -15,6 +15,6 @@ The workshop is envisaged as an interactive session of energy experts and policy
 
 **To attend the workshop, please register [here](http://bit.ly/reeem).**
 
-For the full workshop agenda, please take a look [here.](http://www.reeem.org/wp-content/uploads/2019/05/Workshop_agenda_Vilnius_June_4.pdf)
+For the full workshop agenda, please take a look [here.](https://www.reeem.org/wp-content/uploads/2019/05/Workshop_agenda_Vilnius_June_4.pdf)
 
 ##### © Image: [Bernt Rostad](https://www.flickr.com/people/67975030@N00) from Oslo, Norway, [Martynas Mažvydas National Library of Lithuania (9651319245)](https://commons.wikimedia.org/wiki/File:Martynas_Mažvydas_National_Library_of_Lithuania_(9651319245).jpg), cropped, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/legalcode)

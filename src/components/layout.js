@@ -61,12 +61,12 @@ const SocialMedia = ({ pageTitle, location }) => (
     ) && (
       <SocialMediaContainer>
         <a
-          href={`http://twitter.com/share?url=${location.href}&text=${pageTitle}`}
+          href={`https://twitter.com/share?url=${location.href}&text=${pageTitle}`}
         >
           <SocialMediaIcon src={twitterLogo} />
         </a>
         <a
-          href={`http://www.linkedin.com/shareArticle?mini=true&url=${location.href}`}
+          href={`https://www.linkedin.com/shareArticle?mini=true&url=${location.href}`}
         >
           <SocialMediaIcon src={linkedinLogo} />
         </a>

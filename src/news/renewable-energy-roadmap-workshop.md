@@ -15,14 +15,14 @@ We had the chance to welcome a Senior Advisor Renewables and Environment & Publi
 
 Presentations:
 
-[Hélène LAVRAY](http://www.reeem.org/wp-content/uploads/2018/04/Helene-Lavray-Eurelectric.pdf)
+[Hélène LAVRAY](https://www.reeem.org/wp-content/uploads/2018/04/Helene-Lavray-Eurelectric.pdf)
 
-[Pablo Ralon](http://www.reeem.org/wp-content/uploads/2018/04/Pablo-Ralon-IRENA.pdf)
+[Pablo Ralon](https://www.reeem.org/wp-content/uploads/2018/04/Pablo-Ralon-IRENA.pdf)
 
-[Emilien Simonot](http://www.reeem.org/wp-content/uploads/2018/04/Emilien-Simonot-InnoEnergy.pdf)
+[Emilien Simonot](https://www.reeem.org/wp-content/uploads/2018/04/Emilien-Simonot-InnoEnergy.pdf)
 
-[Principle Power](http://www.reeem.org/wp-content/uploads/2018/04/Guillaume-Ardoise-PPI.pdf)
+[Principle Power](https://www.reeem.org/wp-content/uploads/2018/04/Guillaume-Ardoise-PPI.pdf)
 
-[Solar Worx](http://www.reeem.org/wp-content/uploads/2018/04/SolarWorx-REEEM_Workshop.pdf)
+[Solar Worx](https://www.reeem.org/wp-content/uploads/2018/04/SolarWorx-REEEM_Workshop.pdf)
 
-[Minesto](http://www.reeem.org/wp-content/uploads/2018/04/Minesto-REEEM_Workshop.pdf)
+[Minesto](https://www.reeem.org/wp-content/uploads/2018/04/Minesto-REEEM_Workshop.pdf)

@@ -9,7 +9,7 @@ path: /2019/03/27/a-look-back-at-the-reeem-technology-and-innovation-roadmap-wor
 
 On March 19th, the last REEEM stakeholder workshop on Technology and Innovation Roadmap Workshop on Energy Efficiency in Buildings was hosted at EIT InnoEnergy in Brussels.
 
-The full workshop agenda can be found [here.](http://www.reeem.org/wp-content/uploads/2019/03/Agenda-final.pdf)
+The full workshop agenda can be found [here.](https://www.reeem.org/wp-content/uploads/2019/03/Agenda-final.pdf)
 
 The experts were giving presentations on different subjects in Energy Efficency in Buildings. You can find and download the speaker's presentations below.
 

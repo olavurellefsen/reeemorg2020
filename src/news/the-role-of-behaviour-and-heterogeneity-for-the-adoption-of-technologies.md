@@ -8,7 +8,7 @@ path: /2019/07/25/the-role-of-behaviour-and-heterogeneity-for-the-adoption-of-te
 The REEEM project funded a series of detailed empirical studies into individual preferences for low carbon technologies, looking in particular at the factors influencing technology adoption and exploring the differences between several EU member countries. Detailed surveys were carried out on 3000 European households in Finland, Croatia, and the UK. The responses were then used to build databases of individual attitudes and preferences with respect to decisions around home heating and transport. The work is described in a detailed report as well as a policy brief:
 
 - The Focus Report is the longest of the two documents, and sets out the research framing and relationship of the study to the existing literature, details the methodological approach taken, and presents an extensive visualisation and discussion of the results.
-- The [Policy Brief](http://www.reeem.org/wp-content/uploads/2019/05/REEEM-D4.3.pdf) is a much more concise document, and summarises the key implications of the study as they relate to EU climate policy in general and also the use of quantitative system models to support policymaking activity.
+- The [Policy Brief](https://www.reeem.org/wp-content/uploads/2019/05/REEEM-D4.3.pdf) is a much more concise document, and summarises the key implications of the study as they relate to EU climate policy in general and also the use of quantitative system models to support policymaking activity.
 
 ![Adoption Behaviour](images/20190715_Adoption_Behaviour.png)
 

@@ -19,4 +19,4 @@ The first EMP-E has set the base for this endeavour and has shown that there alr
 
 The REEEM team would like to thank the European Commission for hosting the conference.
 
-Results, Speeches and Impressions will be updated constantly in the next weeks. Please visit the [EMP-E pages](http://www.reeem.org/index.php/emp-e-main/) for further information.
+Results, Speeches and Impressions will be updated constantly in the next weeks. Please visit the [EMP-E pages](https://www.reeem.org/index.php/emp-e-main/) for further information.

@@ -15,7 +15,7 @@ We had the chance to welcome a representative of the European Commission, **Dimi
 
 **Agenda**
 
-[REEEM Workshop on Storage](http://www.reeem.org/wp-content/uploads/2017/05/REEEM-Workshop-on-Storage_Agenda.pdf)
+[REEEM Workshop on Storage](https://www.reeem.org/wp-content/uploads/2017/05/REEEM-Workshop-on-Storage_Agenda.pdf)
 
 **Pictures**
 

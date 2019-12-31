@@ -33,24 +33,24 @@ Workshop‘s presentations are provided below.
 
 Georgios Avgerinopoulos
 
-[Integrated impact assessment of decarbonisation pathways for the](http://www.reeem.org/wp-content/uploads/2019/06/Avgerinopoulos-min.pdf) [European Union - Insights from the REEEM Project](_wp_link_placeholder)
+[Integrated impact assessment of decarbonisation pathways for the](https://www.reeem.org/wp-content/uploads/2019/06/Avgerinopoulos-min.pdf) [European Union - Insights from the REEEM Project](_wp_link_placeholder)
 
 Linas Martišauskas
 
-[Assessment of energy security coefficient for Baltic countries and Finland considering energy system resilience to disruptions](http://www.reeem.org/wp-content/uploads/2019/06/Martisauskas-min.pdf)
+[Assessment of energy security coefficient for Baltic countries and Finland considering energy system resilience to disruptions](https://www.reeem.org/wp-content/uploads/2019/06/Martisauskas-min.pdf)
 
 Arvydas Galinis
 
-[Energy Security in Baltic Countries and Finland: development of electricity systems in Baltic States and Finland taking into account security and reliability aspects](http://www.reeem.org/wp-content/uploads/2019/06/Galinis-min.pdf)
+[Energy Security in Baltic Countries and Finland: development of electricity systems in Baltic States and Finland taking into account security and reliability aspects](https://www.reeem.org/wp-content/uploads/2019/06/Galinis-min.pdf)
 
 Vidas Lekavičius
 
-[Distributional and energy poverty impacts of energy transition](http://www.reeem.org/wp-content/uploads/2019/06/Lekavicius_REEEM-min.pdf)
+[Distributional and energy poverty impacts of energy transition](https://www.reeem.org/wp-content/uploads/2019/06/Lekavicius_REEEM-min.pdf)
 
 Sanna Syri
 
-[The role of district heating in decarbonization: insights from the case study on Helsinki region, Kaunas and Warsaw](http://www.reeem.org/wp-content/uploads/2019/06/Syri_DH_syri_Vilna_04062019-2-min.pdf)
+[The role of district heating in decarbonization: insights from the case study on Helsinki region, Kaunas and Warsaw](https://www.reeem.org/wp-content/uploads/2019/06/Syri_DH_syri_Vilna_04062019-2-min.pdf)
 
 Discussion
 
-[Regional Aspects of European Energy Transition](http://www.reeem.org/wp-content/uploads/2019/06/Discussion_REEEM-min.pdf)
+[Regional Aspects of European Energy Transition](https://www.reeem.org/wp-content/uploads/2019/06/Discussion_REEEM-min.pdf)

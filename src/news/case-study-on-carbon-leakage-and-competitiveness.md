@@ -13,4 +13,4 @@ The Case Study on Carbon Leakage and Competitiveness in the EU analyzed over 20 
 
 High emission reduction targets in the EU cause higher loss in competitiveness in these sectors, however, higher emission cuts outside of the EU, increase their competitiveness and demonstrated that having the non-EU countries pursuing higher emission cuts is more effective to increase competitiveness of energy intensive sectors than freely allocating certificates. As for the other industry sectors, such as machinery and vehicles, they are more resilient to energy and environmental policies and are less affected by the EU emission targets.
 
-You can find the full study [here](http://www.reeem.org/wp-content/uploads/2018/12/3.2-Case-Study-on-Carbon-Leakage-and-Competitiveness.pdf).
+You can find the full study [here](https://www.reeem.org/wp-content/uploads/2018/12/3.2-Case-Study-on-Carbon-Leakage-and-Competitiveness.pdf).

@@ -7,6 +7,6 @@ path: /2018/01/25/second-meeting-of-the-emp-e-energy-modelling-platform-for-euro
 
 The Energy Modelling Platform for Europe (EMP-E) culminates in a yearly conference, bringing together scientists and policy makers to discuss cutting edge energy modelling issues. Stakeholders are provided with a peer-reviewed digest of model and policy insights for European energy scenario. The platform serves as a continuous forum for exchanging research, development and practice of energy system modelling in Europe and, where feasible, promote the sharing of data and resources. It thus shall increase the efficiency, integrity and access to European energy modelling data, scenarios, tools and results.
 
-Link to the event description: [http://www.reeem.org/index.php/event/energy-modelling-platform-for-europe-emp-e-2018-in-brussels/](http://www.reeem.org/index.php/event/energy-modelling-platform-for-europe-emp-e-2018-in-brussels/)
+Link to the event description: [https://www.reeem.org/index.php/event/energy-modelling-platform-for-europe-emp-e-2018-in-brussels/](https://www.reeem.org/index.php/event/energy-modelling-platform-for-europe-emp-e-2018-in-brussels/)
 
 Redesigned homepage of the EMP-E: [http://www.energymodellingplatform.eu/](http://www.energymodellingplatform.eu/)

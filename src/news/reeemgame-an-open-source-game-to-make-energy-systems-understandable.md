@@ -15,7 +15,7 @@ REEEMgame features data about e.g. electricity demands and emission limits in Eu
 
 All partners within the REEEM project have contributed to the learning simulation by providing feedback throughout the development process and the game will be updated throughout the project.
 
-REEEMgame is part of the [Stakeholder Engagement and Dissemination work package](http://www.reeem.org/index.php/work-packages/) in the REEEM project. The game is based on [OSeMBE](http://www.osemosys.org/osembe.html), which is the open source energy model base for the European Union.
+REEEMgame is part of the [Stakeholder Engagement and Dissemination work package](https://www.reeem.org/index.php/work-packages/) in the REEEM project. The game is based on [OSeMBE](http://www.osemosys.org/osembe.html), which is the open source energy model base for the European Union.
 
 Visit the current version: [https://reeemgame.org](https://reeemgame.org)
 
