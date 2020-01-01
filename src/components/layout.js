@@ -33,14 +33,22 @@ const Layout = ({ children, pageTitle, location, showSocialMedia }) => {
         </InnerTopContainer>
       </OuterTopContainer>
       <MainContainer>
-        <LeftArea />
+        <SideAreaContainer>
+          <LeftArea />
+        </SideAreaContainer>
         <MainAreaContainer>
           <PageTitleStyle>{pageTitle.toUpperCase()}</PageTitleStyle>
-          {showSocialMedia.indexOf('top')!==-1 && <SocialMedia pageTitle={pageTitle} location={location} />}
+          {showSocialMedia.indexOf("top") !== -1 && (
+            <SocialMedia pageTitle={pageTitle} location={location} />
+          )}
           <MainArea>{children}</MainArea>
-          {showSocialMedia.indexOf('bottom')!==-1 && <SocialMedia pageTitle={pageTitle} location={location} />}
+          {showSocialMedia.indexOf("bottom") !== -1 && (
+            <SocialMedia pageTitle={pageTitle} location={location} />
+          )}
         </MainAreaContainer>
-        <RightArea />
+        <SideAreaContainer>
+          <RightArea />
+        </SideAreaContainer>
       </MainContainer>
       <footer>
         <HigherBottomContainer>
@@ -85,7 +93,7 @@ Layout.propTypes = {
 Layout.defaultProps = {
   pageTitle: ``,
   location: {},
-  showSocialMedia: ['bottom'],
+  showSocialMedia: ["bottom"],
 }
 
 const OuterTopContainer = styled.div`
@@ -107,6 +115,7 @@ const MainContainer = styled.div`
   padding: 0px 0px 60px 0px;
   font-size: 1rem;
   line-height: 24px;
+  overflow-x: hidden;
 `
 
 const SocialMediaContainer = styled.div`
@@ -122,11 +131,16 @@ const SocialMediaIcon = styled.img`
   padding: 6px;
 `
 
+const SideAreaContainer = styled.div`
+  z-index: 200;
+`
+
 const MainAreaContainer = styled.main`
   flex: 1 0 780px;
   min-width: 320px;
   max-width: 780px;
   background: white;
+  z-index: 100;
 `
 
 const PageTitleStyle = styled.div`

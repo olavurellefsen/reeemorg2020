@@ -80,9 +80,10 @@ const LeftAreaContainer = styled.div`
   flex: 1 0 340px;
   color: #777;
   font-size: 1rem;
-  background: white;
   margin: 0px;
   line-height: 24px;
+  background: #eaeaea;
+  padding-left: calc((100vw - 1380px) / 2);
 `
 
 const TopLeftContainer = styled.div`

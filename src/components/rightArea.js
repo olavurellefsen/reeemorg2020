@@ -41,6 +41,7 @@ const RightAreaContainer = styled.div`
   margin: 0px;
   line-height: 24px;
   height: 1000px;
+  padding-right: calc((100vw - 1380px) / 2);
 `
 
 const TopRightContainer = styled.div`
