@@ -112,6 +112,7 @@ const DropdownContentStyle = styled.ul`
   list-style: none;
   padding: 10px 0;
   margin: 0 0 0 -10px;
+  z-index: 400;
   ${MenuItemStyle}:hover & {
     display: block;
   }
