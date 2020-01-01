@@ -19,7 +19,7 @@ export default () => {
     () => {
       handleNext()
     },
-    !resetInterval ? 4000 : setResetInterval(false)
+    !resetInterval ? 15000 : setResetInterval(false)
   )
   const { allMarkdownRemark } = useStaticQuery(
     graphql`
@@ -60,6 +60,10 @@ export default () => {
     index === 0 ? setIndex(length) : setIndex(index - 1)
     setResetInterval(true)
   }
+  const gotoSpecific = item => {
+    item >= 0 && item <= length ? setIndex(item) : setIndex(0)
+    setResetInterval(true)
+  }
   const { node } = allMarkdownRemark.edges[index]
 
   return (
@@ -77,6 +81,15 @@ export default () => {
         <RightArrow onClick={() => handleNext()}>
           <FontAwesomeIcon icon={faChevronRight} />
         </RightArrow>
+        <SelectorListStyle>
+          {[0, 1, 2, 3, 4].map(item => (
+            <SelectorItemStyle
+              selected={index === item}
+              key={item}
+              onClick={() => gotoSpecific(item)}
+            />
+          ))}
+        </SelectorListStyle>
       </SlideshowStyle>
       <DateStyle>{node.frontmatter.date}</DateStyle>
       <HeadlineContainerStyle>
@@ -108,6 +121,27 @@ const useInterval = (callback, delay) => {
 
 const SlideshowStyle = styled.div`
   position: relative;
+`
+
+const SelectorListStyle = styled.ol`
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  position: absolute;
+  top: -25px;
+  left: 5px;
+  margin-left: 0px;
+  bottom: auto;
+`
+
+const SelectorItemStyle = styled.li`
+  height: 10px;
+  width: 25px;
+  margin-right: 10px;
+  background-color: ${props => (props.selected ? "#3b8dbd" : "#ddd")};
+  color: ${props => (props.selected ? "#3b8dbd" : "#ddd")};
+  overflow-x: hidden;
+  overflow-y: hidden;
 `
 
 const LeftArrow = styled.div`
