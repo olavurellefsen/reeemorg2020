@@ -10,7 +10,7 @@ export default props => (
     showSocialMedia={["top", "bottom"]}
   >
     <SEO title="OSeMBE Engagement Model" />
-    <div class="entry themeform">
+    <div>
       <p>
         <strong>
           View,&nbsp;download and contribute to&nbsp;the REEEM Stakeholder
@@ -100,7 +100,6 @@ export default props => (
         src="https://www.youtube.com/embed/7-GnZ-Xhars?enablejsapi=1&amp;autoplay=0&amp;cc_load_policy=0&amp;iv_load_policy=1&amp;loop=0&amp;modestbranding=0&amp;rel=1&amp;fs=1&amp;playsinline=0&amp;autohide=2&amp;theme=dark&amp;color=red&amp;controls=1&amp;"
         title="YouTube player"
         allow="autoplay; encrypted-media"
-        allowfullscreen=""
         data-no-lazy="1"
         data-skipgform_ajax_framebjll=""
       ></iframe>

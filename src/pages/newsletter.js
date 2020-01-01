@@ -10,8 +10,8 @@ export default props => (
   >
     <SEO title="Newsletter" />
     <h2>Newsletter archive</h2>
-    <div class="display_archive">
-      <div class="campaign">
+    <div>
+      <div>
         08/01/2019 -{" "}
         <a
           href="http://us13.campaign-archive.com/?u=ee72f5070843a17245176b969&amp;id=2ad8e09938"
@@ -20,7 +20,7 @@ export default props => (
           REEEM newsletter, July 2019
         </a>
       </div>
-      <div class="campaign">
+      <div>
         06/28/2019 -{" "}
         <a
           href="http://us13.campaign-archive.com/?u=ee72f5070843a17245176b969&amp;id=da83fd1c5f"
@@ -29,7 +29,7 @@ export default props => (
           REEEM newsletter, June 2019
         </a>
       </div>
-      <div class="campaign">
+      <div>
         05/14/2019 -{" "}
         <a
           href="http://us13.campaign-archive.com/?u=ee72f5070843a17245176b969&amp;id=bb9625f960"
@@ -38,7 +38,7 @@ export default props => (
           REEEM newsletter, May 2019
         </a>
       </div>
-      <div class="campaign">
+      <div>
         04/23/2019 -{" "}
         <a
           href="http://us13.campaign-archive.com/?u=ee72f5070843a17245176b969&amp;id=9c85dd3fa6"
@@ -47,7 +47,7 @@ export default props => (
           REEEM newsletter, April 2019
         </a>
       </div>
-      <div class="campaign">
+      <div>
         03/26/2019 -{" "}
         <a
           href="http://us13.campaign-archive.com/?u=ee72f5070843a17245176b969&amp;id=7bd8161af0"
@@ -56,7 +56,7 @@ export default props => (
           REEEM newsletter, March 2019
         </a>
       </div>
-      <div class="campaign">
+      <div>
         02/08/2019 -{" "}
         <a
           href="http://us13.campaign-archive.com/?u=ee72f5070843a17245176b969&amp;id=cf226f551f"
@@ -65,7 +65,7 @@ export default props => (
           REEEM newsletter, February 2019
         </a>
       </div>
-      <div class="campaign">
+      <div>
         01/11/2019 -{" "}
         <a
           href="http://us13.campaign-archive.com/?u=ee72f5070843a17245176b969&amp;id=5b31741f50"
@@ -74,7 +74,7 @@ export default props => (
           REEEM newsletter, December 2018
         </a>
       </div>
-      <div class="campaign">
+      <div>
         12/18/2018 -{" "}
         <a
           href="http://us13.campaign-archive.com/?u=ee72f5070843a17245176b969&amp;id=25a6d2dee1"
@@ -83,7 +83,7 @@ export default props => (
           REEEM newsletter, November 2018
         </a>
       </div>
-      <div class="campaign">
+      <div>
         11/14/2018 -{" "}
         <a
           href="http://us13.campaign-archive.com/?u=ee72f5070843a17245176b969&amp;id=fc87e17782"
@@ -92,7 +92,7 @@ export default props => (
           REEEM newsletter, October 2018
         </a>
       </div>
-      <div class="campaign">
+      <div>
         10/10/2018 -{" "}
         <a
           href="http://us13.campaign-archive.com/?u=ee72f5070843a17245176b969&amp;id=0f9afdd572"

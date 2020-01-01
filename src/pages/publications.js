@@ -12,8 +12,10 @@ export default props => (
     <SEO title="Publications" />
     <table>
       <thead>
-        <Column1>Title</Column1>
-        <Column2>Authors</Column2>
+        <tr>
+          <Column1>Title</Column1>
+          <Column2>Authors</Column2>
+        </tr>
       </thead>
       <tbody>
         {articles.map(article => (
