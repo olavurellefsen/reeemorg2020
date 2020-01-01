@@ -59,7 +59,7 @@ export default props => (
         questions.
       </p>
       <p>
-        <img src={methodology} alt="Methodology" />
+        <ImgStyle src={methodology} alt="Methodology" />
       </p>
       <p>
         In this&nbsp;blog we summarise the first policy brief of the project
