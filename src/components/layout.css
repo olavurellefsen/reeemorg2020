@@ -238,12 +238,11 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 2.645rem;
   line-height: 1.1;
+  font-weight: normal;
+  text-align: center;
 }
 h2 {
   margin-left: 0;
@@ -259,8 +258,10 @@ h2 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
+  font-size: 2.2rem;
   line-height: 1.1;
+  font-weight: normal;
+  text-align: center;
 }
 h3 {
   margin-left: 0;
