@@ -10,7 +10,7 @@ export default props => (
     showSocialMedia={["top", "bottom"]}
   >
     <SEO title="Pathways" />
-    <div class="entry themeform">
+    <div>
       <h2>
         Narratives and main assumptions of the three EU Transition Pathways
         formulated in REEEM:
