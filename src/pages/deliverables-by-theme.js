@@ -117,20 +117,24 @@ export default props => (
       and for the Integrated Impact Reports.
     </p>
     <h2>Completed deliverables</h2>
-    {themes.map(theme => (
-      <div key={theme}>
+    {themes.map((theme, index1) => (
+      <div key={index1}>
         <h3>{theme.theme}</h3>
         <table>
           <thead>
-            <Column1>Id</Column1>
-            <Column2>Name</Column2>
-            <Column3>Date</Column3>
+            <tr>
+              <Column1>Id</Column1>
+              <Column2>Name</Column2>
+              <Column3>Date</Column3>
+            </tr>
           </thead>
           <tbody>
-            {theme.deliverables.map(deliverable => (
-              <tr key={deliverable.id}>
+            {theme.deliverables.map((deliverable, index2) => (
+              <tr key={index2}>
                 <Column1>{deliverable.id}</Column1>
-                <Column2><a href={deliverable.link}>{deliverable.name}</a></Column2>
+                <Column2>
+                  <a href={deliverable.link}>{deliverable.name}</a>
+                </Column2>
                 <Column3>{deliverable.date}</Column3>
               </tr>
             ))}
@@ -439,11 +443,11 @@ const themes = [
 ]
 
 const Column1 = styled.td`
-  width: 20%
+  width: 20%;
 `
 
 const Column2 = styled.td`
-  width: 60%
+  width: 60%;
 `
 
 const Column3 = styled.td`
