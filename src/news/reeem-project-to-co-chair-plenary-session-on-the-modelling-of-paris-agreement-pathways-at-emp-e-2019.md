@@ -1,7 +1,7 @@
 ---
 title: "REEEM project to co-chair plenary session on the modelling of Paris Agreement pathways at EMP-E 2019"
 date: "2019-06-28"
-coverImage: "./images/20190910_REEEM_final_news_Booklet.jpg"
+coverImage: "./images/EMPE_720x360.jpg"
 path: /2019/06/28/reeem-project-to-co-chair-plenary-session-on-the-modelling-of-paris-agreement-pathways-at-emp-e-2019/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "REEEMpathways, an open source tool for stakeholder engagement and pathway diagnostics"
 date: "2019-07-17"
-coverImage: "./images/20190910_REEEM_final_news_Booklet.jpg"
+coverImage: "./images/REEEMpathways-tool_Screenshot1_720x360.jpg"
 path: /2019/07/17/reeempathways-an-open-source-tool-for-stakeholder-engagement-and-pathway-diagnostics/
 ---
 
