@@ -11,12 +11,9 @@ export default ({ data }) => (
   <Layout>
     <SEO title="Home" />
     <h1>Latest News</h1>
-    <br />
-    <br />
-    <LatestNews />
-    <br />
-    <br />
-    <hr />
+    <LatestNewsContainer>
+      <LatestNews />
+    </LatestNewsContainer>
     <ImageStyle
       src={reeemClouds}
       alt="Modelling the transformation of the European Energy System"
@@ -91,6 +88,10 @@ export const query = graphql`
 
 const ImageStyle = styled.img`
   margin: 0;
+`
+
+const LatestNewsContainer = styled.div`
+  margin: 60px 0px;
 `
 
 const NewsItemStyle = styled.div`
