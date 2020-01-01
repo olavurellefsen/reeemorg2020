@@ -13,7 +13,7 @@ From November 26th to 28th the sixth General Assembly of the REEEM Project was h
 
 The focus on the discussion was to evaluate the different scenarios regarding the impact on social, environmental, political and economic dimensions such as air quality, people’s health, the gross domestic product (GDP), the countries’ economy in general and resources and primary materials. Moreover the questions were discussed of how the different models could be connected and the data exchanged between the models.
 
-\[caption id="attachment\_1776" align="alignleft" width="300"\]![Worksshop at the General Assembly in Tórshavn](./images/GA-Tórshavn-1-300x225.jpg) Workshop at the GA\[/caption\]
+![Worksshop at the General Assembly in Tórshavn](./images/GA-Tórshavn-1-300x225.jpg) Workshop at the GA
 
 Also, the REEEMpathways tool was tested and feedback was given to improve the tool. The tool aims to visualize the output and calculations from the different models.
 

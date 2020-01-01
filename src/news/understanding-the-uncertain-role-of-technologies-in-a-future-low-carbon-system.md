@@ -5,7 +5,7 @@ coverImage: "./images/StevePyeReeem.png"
 path: /2018/12/12/understanding-the-uncertain-role-of-technologies-in-a-future-low-carbon-system/
 ---
 
-\[caption id="attachment\_1759" align="alignleft" width="510"\]![Clustering example of the relationship between wind generation and other technologies & resources](./images/REEEM_Pic_Steve_Pye.png) Clustering example of the relationship between wind generation and other technologies & resources\[/caption\]
+![Clustering example of the relationship between wind generation and other technologies & resources](./images/REEEM_Pic_Steve_Pye.png) Clustering example of the relationship between wind generation and other technologies & resources
 
 To meet the stated ambition in the Paris Agreement, Europe’s energy transition needs to be one that effects large-scale emission reductions at an unprecedented rate, with a system that has to be net-zero CO2 emissions by or soon after 2050. Critical to this transition will be the large-scale deployment of existing and new technologies. However, many uncertainties abound concerning future technology cost, performance, deployment, and socio-political feasibility, making planning for this transition challenging.
 

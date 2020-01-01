@@ -5,7 +5,7 @@ coverImage: "./images/20190604_1248-8G4A3619-min.jpg"
 path: /2019/06/12/a-look-back-at-the-reeem-workshop-on-regional-aspects-of-european-energy-transition/
 ---
 
-\[caption id="attachment\_2500" align="alignnone" width="4200"\]![Workshop participants in Vilnius](./images/20190604_1248-8G4A3619-min.jpg) © Vygaudas Juozaitis LNB\[/caption\]
+![Workshop participants in Vilnius](./images/20190604_1248-8G4A3619-min.jpg) © Vygaudas Juozaitis LNB
 
 On June 4, one of the last REEEM Project stakeholder workshops was held in Vilnius. It aimed at discussing energy security and other energy transition issues that are especially relevant for the Baltic region.
 

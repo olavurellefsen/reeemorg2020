@@ -5,7 +5,7 @@ coverImage: "./images/REEEM_GA_Group_3_Zuschnitt.png"
 path: /2019/04/16/last-reeem-general-assembly-has-started/
 ---
 
-\[caption id="attachment\_2310" align="alignnone" width="720"\]![Participants of the GA in Copenhagen](./images/REEEM_GA_Group_3_Zuschnitt.png) Participants of the GA in Copenhagen.\[/caption\]
+![Participants of the GA in Copenhagen](./images/REEEM_GA_Group_3_Zuschnitt.png) Participants of the GA in Copenhagen.
 
 Yesterday, the last General Assembly (GA) of the REEEM project has started. It is the last occasion for the project partners to meet, before the final meeting in July in Brussels.
 
