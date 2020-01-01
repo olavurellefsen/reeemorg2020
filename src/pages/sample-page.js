@@ -8,27 +8,25 @@ import SEO from "../components/seo"
 export default ({ data }) => (
   <Layout pageTitle="News">
     <SEO title="News" />
-    {data.allMarkdownRemark.edges.map(({ node }, index) => {
-      console.log(node.frontmatter.title)
-      return(
+    {data.allMarkdownRemark.edges.map(({ node }, index) => (
       <NewsItemStyle key={index}>
         <ImgStyle sizes={node.frontmatter.coverImage.childImageSharp.fluid} />
-          <HeadlineStyle to={node.frontmatter.path}>
-            {node.frontmatter.title}
-          </HeadlineStyle>
+        <HeadlineStyle to={node.frontmatter.path}>
+          {node.frontmatter.title}
+        </HeadlineStyle>
         <DateStyle>{node.frontmatter.date}</DateStyle>
         <ExerptStyle>
           {node.excerpt}{" "}
           <ReadMoreStyle to={node.frontmatter.path}>Read More »</ReadMoreStyle>
         </ExerptStyle>
       </NewsItemStyle>
-    )})}
+    ))}
   </Layout>
 )
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
+    allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
       edges {
         node {
           frontmatter {
