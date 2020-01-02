@@ -5,7 +5,7 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 
 const LowerFooter = () => (
   <LowerFooterStyle>
-    <CopyrightStyle>© REEEM {new Date().getFullYear()}.</CopyrightStyle>
+    <CopyrightStyle>© REEEM 2016-{new Date().getFullYear()}</CopyrightStyle>
     <TwitterStyle href="https://twitter.com/ReeemProject">
       <FontAwesomeIcon icon={faTwitter} />
     </TwitterStyle>

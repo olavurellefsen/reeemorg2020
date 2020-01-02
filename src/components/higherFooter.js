@@ -17,7 +17,6 @@ HigherFooter.defaultProps = {
 }
 
 const DisclaimerStyle = styled.div`
-  width: 33%;
   color: #777;
   font-size: 15px;
   background: white;
