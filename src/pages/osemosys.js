@@ -28,7 +28,7 @@ export default props => (
         </strong>
         and&nbsp;
         <strong>
-          <a href="http://www.reeem.org/wp-content/uploads/2019/09/osembe_v1r1_20190731.zip">
+          <a href="../uploads/osembe_v1r1_20190731.zip">
             Zip-archive
           </a>
         </strong>

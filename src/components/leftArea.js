@@ -65,11 +65,9 @@ const LeftArea = () => (
           <b>Project Officer</b>: Manuela Conconi
         </p>
 
-        <HeadingStyle>UPCOMING EVENTS</HeadingStyle>
-        <p>There are no upcoming events at this time.</p>
-
+        <HeadingStyle>EVENTS</HeadingStyle>
         <p>
-          <LinkStyle to="/events">See previous events HERE</LinkStyle>
+          <LinkStyle to="/event">See previous events HERE</LinkStyle>
         </p>
       </MainLeftArea>
     </MainLeftContainer>

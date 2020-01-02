@@ -89,6 +89,7 @@ export default [
       { name: "News", link: "/sample-page/" },
       { name: "Newsletter", link: "/newsletter/" },
       { name: "Blog", link: "/reeem-blog/" },
+      { name: "Events", link: "/event/" },
     ],
   },
   { name: "Contact", link: "/contact-us/" },

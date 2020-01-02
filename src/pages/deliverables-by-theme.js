@@ -400,7 +400,7 @@ const themes = [
         name: "Communication Plan",
         date: "May-16",
         link:
-          "http://www.reeem.org/wp-content/uploads/2017/04/REEEM-D8.1-and-D7.5.pdf",
+          "/uploads/REEEM-D8.1-and-D7.5.pdf",
       },
       {
         id: "D7.6",
@@ -436,7 +436,7 @@ const themes = [
         name: "Project Manual",
         date: "Apr-16",
         link:
-          "http://www.reeem.org/wp-content/uploads/2017/04/REEEM-D8.1-and-D7.5.pdf",
+          "/uploads/REEEM-D8.1-and-D7.5.pdf",
       },
     ],
   },
