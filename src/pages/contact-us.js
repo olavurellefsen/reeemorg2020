@@ -5,10 +5,10 @@ import SEO from "../components/seo"
 
 export default props => (
   <Layout
-    pageTitle="Objectives"
+    pageTitle="Contacts"
     location={props.location}
   >
-    <SEO title="Objectives" />
+    <SEO title="Contacts" />
     <p>To contact REEEM, please send an email to:</p>
     <ContactListStyle>
       <ListItemStyle>
