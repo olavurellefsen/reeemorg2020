@@ -9,11 +9,11 @@ import reeem from "../../images/reeem-logo.png"
 
 export default props => (
   <Layout
-    pageTitle="EMP-E Event Page"
+    pageTitle="Energy Modelling Platform for Europe (EMP-E) 2017 in Brussels"
     location={props.location}
     showSocialMedia={["bottom"]}
   >
-    <SEO title="EMP-E Event Page " />
+    <SEO title="Energy Modelling Platform for Europe (EMP-E) 2017 in Brussels " />
     <h1>
       Energy Modelling Platform for Europe (EMP-E) 2017 in Brussels
     </h1>
@@ -75,7 +75,7 @@ export default props => (
         <p>
           You find the{" "}
           <strong>
-            <a href="http://www.reeem.org/wp-content/uploads/2017/05/Abstracts_Speeches.pdf">
+            <a href="/uploads/2017/05/Abstracts_Speeches.pdf">
               abstracts of the speeches here
             </a>
           </strong>
@@ -84,7 +84,7 @@ export default props => (
         <p>
           Current programme can be{" "}
           <strong>
-            <a href="http://www.reeem.org/wp-content/uploads/2017/05/Programme_v03.pdf">
+            <a href="/uploads/2017/05/Programme_v03.pdf">
               downloaded here
             </a>
           </strong>{" "}
@@ -92,14 +92,14 @@ export default props => (
         </p>
         <p>
           Presentations and slides can be{" "}
-          <a href="http://www.reeem.org/index.php/emp-e-main/">accessed here</a>
+          <a href="/emp-e-main/">accessed here</a>
           .
         </p>
         <h4>Focus Groups</h4>
         <ul>
           <li>
             <strong>
-              <a href="http://www.reeem.org/wp-content/uploads/2017/04/EMP_E-Focus_Group_Pathways.pdf">
+              <a href="/uploads/2017/04/EMP_E-Focus_Group_Pathways.pdf">
                 Designing and comparing energy transition pathways
               </a>
               <br />
@@ -108,7 +108,7 @@ export default props => (
           </li>
           <li>
             <strong>
-              <a href="http://www.reeem.org/wp-content/uploads/2017/05/EMP-E_Focus-Group_Capacity-expansion-in-high-RES-worlds.pdf">
+              <a href="/uploads/2017/05/EMP-E_Focus-Group_Capacity-expansion-in-high-RES-worlds.pdf">
                 Capacity expansion planning in high RES worlds
               </a>
               <br />
@@ -118,7 +118,7 @@ export default props => (
           </li>
           <li>
             <strong>
-              <a href="http://www.reeem.org/wp-content/uploads/2017/11/EMP-E-Focus-Group-3-Publishing-in-open-databases.pdf">
+              <a href="/uploads/2017/11/EMP-E-Focus-Group-3-Publishing-in-open-databases.pdf">
                 Publishing in open databases and increasing transparency and
                 reproducibility
               </a>
@@ -128,7 +128,7 @@ export default props => (
           </li>
           <li>
             <strong>
-              <a href="http://www.reeem.org/wp-content/uploads/2017/05/EMP-E_Focus-Group_Bridging-the-gap-between-policy-questions-and-models.pdf">
+              <a href="/uploads/2017/05/EMP-E_Focus-Group_Bridging-the-gap-between-policy-questions-and-models.pdf">
                 Bridging the gap between policy questions and models
               </a>
               <br />
@@ -137,7 +137,7 @@ export default props => (
           </li>
           <li>
             <strong>
-              <a href="http://www.reeem.org/wp-content/uploads/2017/04/EMP-E_Focus-Group_Modelling-of-environmental-impacts-and-externalities.pdf">
+              <a href="/uploads/2017/04/EMP-E_Focus-Group_Modelling-of-environmental-impacts-and-externalities.pdf">
                 Modelling of environmental impacts and externalities
               </a>
               <br />
@@ -146,7 +146,7 @@ export default props => (
           </li>
           <li>
             <strong>
-              <a href="http://www.reeem.org/wp-content/uploads/2017/05/EMP-E_Focus-Group06_Linking-models_V03.pdf">
+              <a href="/uploads/2017/05/EMP-E_Focus-Group06_Linking-models_V03.pdf">
                 Methodologies for linking models
               </a>
               <br />
@@ -157,7 +157,7 @@ export default props => (
         <h3>Call for papers</h3>
         <p>
           <strong>
-            <a href="http://www.reeem.org/wp-content/uploads/2017/06/ESR_Call-for-papers_02.pdf">
+            <a href="/uploads/2017/06/ESR_Call-for-papers_02.pdf">
               Link to the call for papers
             </a>{" "}
             (v2)
@@ -232,64 +232,6 @@ export default props => (
         <a href="http://ec.europa.eu/transparency/regexpert/index.cfm?do=groupDetail.groupDetailDoc&amp;id=25609&amp;no=1">
           http://ec.europa.eu/transparency/regexpert/index.cfm?do=groupDetail.groupDetailDoc&amp;id=25609&amp;no=1
         </a>
-      </div>
-      <div>
-        <div><br/><br/>
-          <h2> Details </h2>
-          <dl>
-            <dt> Start: </dt>
-            <dd>
-              <abbr
-                title="2017-05-17"
-              >
-                {" "}
-                17th May 2017{" "}
-              </abbr>
-            </dd>
-            <dt > End: </dt>
-            <dd>
-              <abbr
-                title="2017-05-18"
-              >
-                {" "}
-                18th May 2017{" "}
-              </abbr>
-            </dd>
-            <dt>
-              Event Category:
-            </dt>{" "}
-            <dd>
-              <a
-                href="http://www.reeem.org/index.php/events/category/conference/"
-                rel="tag"
-              >
-                Conference
-              </a>
-            </dd>
-            <dt>Event Tags:</dt>
-            <dd>
-              <a href="http://www.reeem.org/index.php/tag/emp-e/" rel="tag">
-                EMP-E
-              </a>
-            </dd>
-          </dl>
-        </div>
-
-        <div>
-          <h2>Organiser</h2>
-          <dl>
-            <dt></dt>
-            <dd>Berit Müller </dd>
-            <dt>Email: </dt>
-            <dd>berit.mueller@rl-institut.de </dd>
-            <dt>Website: </dt>
-            <dd>
-              <a href="http://reiner-lemoine-institut.de/">
-                http://reiner-lemoine-institut.de/
-              </a>
-            </dd>
-          </dl>
-        </div>
       </div>
     </div>
   </Layout>
