@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
-
+import { media } from "./mediaTemplate"
 import Header from "./header"
 import Menu from "./menu"
 import menuLinks from "./menuLinks"
@@ -97,13 +97,13 @@ Layout.defaultProps = {
 }
 
 const OuterTopContainer = styled.div`
-  padding: 0 20px;
+  padding: 0;
   background: rgb(51, 54, 59);
 `
 
 const InnerTopContainer = styled.div`
   min-width: 320px;
-  max-width: 1380px;
+  max-width: 1360px;
   width: 100%;
   margin: 0 auto;
 `
@@ -136,7 +136,7 @@ const SideAreaContainer = styled.div`
 `
 
 const MainAreaContainer = styled.main`
-  flex: 1 0 780px;
+  flex: 1 1 740px;
   min-width: 320px;
   max-width: 780px;
   background: white;
@@ -148,6 +148,7 @@ const PageTitleStyle = styled.div`
   color: #666;
   padding: 15px 30px;
   border-bottom: 1px solid #eee;
+  ${media.desktop3`padding-left: 84px;`}
 `
 
 const MainArea = styled.main`
@@ -158,7 +159,7 @@ const HigherBottomContainer = styled.div`
   display: flex;
   justify-content: flex-end;
   min-width: 320px;
-  max-width: 1380px;
+  max-width: 1320px;
   width: 100%;
   margin: 20px auto;
   padding: 0 20px;
