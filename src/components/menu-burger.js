@@ -1,25 +1,16 @@
-import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import styled from "styled-components"
-import { media } from "./mediaTemplate"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCaretDown, faCaretRight } from "@fortawesome/free-solid-svg-icons"
-import "@fortawesome/fontawesome-svg-core/styles.css";
-import { config } from "@fortawesome/fontawesome-svg-core";
-config.autoAddCss = false;
+import React from "react"
 
-const Menu = ({ menuLinks }) => (
-  <NavStyle>
+const MenuBurger = ({ open, menuLinks }) => (
+  <NavStyle open={open}>
     <MenuListStyle>
       {menuLinks.map(link => (
         <MenuItemStyle key={link.name}>
           <TopLinkStyle to={link.link}>{link.name} </TopLinkStyle>
           {link.hasOwnProperty("submenu") ? (
             <>
-              <TopLinkStyle to={link.link}>
-                <FontAwesomeIcon icon={faCaretDown} />
-              </TopLinkStyle>
               <DropdownContentStyle>
                 {link.submenu.map(sublink => (
                   <SubItemStyle key={sublink.name}>
@@ -28,10 +19,6 @@ const Menu = ({ menuLinks }) => (
                     </SubLinkStyle>
                     {sublink.hasOwnProperty("submenu") ? (
                       <>
-                        <SubLinkIconStyle to={sublink.link}>
-                          {" "}
-                          <FontAwesomeIcon icon={faCaretRight} />
-                        </SubLinkIconStyle>
                         <DroprightContentStyle>
                           {sublink.submenu.map(subsublink => (
                             <SubItemStyle key={subsublink.name}>
@@ -58,31 +45,37 @@ const Menu = ({ menuLinks }) => (
   </NavStyle>
 )
 
-Menu.propTypes = {
+MenuBurger.propTypes = {
+  open: PropTypes.bool,
   menuLinks: PropTypes.array,
 }
 
-Menu.defaultProps = {
+MenuBurger.defaultProps = {
   menuLinks: [],
 }
 
 const NavStyle = styled.nav`
-  display: flex;
+  position: absolute;
+  z-index: 500;
+  display: ${props => props.open ? 'flex' : 'none'};
+  left: 10px;
+  top: 15px;
+  width: 95vw;
+  flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: stretch;
   background: rgb(51, 54, 59);
   padding: 0;
   list-style: none;
-  ${media.phone1`display: none;`}
 `
 
 const MenuListStyle = styled.ul`
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   background: #0a0a0a;
-  width: 100vw;
-  padding: 0px 15px;
+  padding: 50px 30px;
   margin: 0;
   list-style: none;
 `
@@ -91,9 +84,9 @@ const MenuItemStyle = styled.li`
   position: relative;
   display: inline-block;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 0;
-  padding: 15px 14px;
+  padding: 0;
 `
 
 const TopLinkStyle = styled(props => <Link {...props} />)`
@@ -106,18 +99,15 @@ const TopLinkStyle = styled(props => <Link {...props} />)`
 `
 
 const DropdownContentStyle = styled.ul`
-  display: none;
-  position: absolute;
+  display: block;
+  position: relative;
   background: #0a0a0a;
   min-width: 160px;
   z-index: 1;
   list-style: none;
-  padding: 10px 0;
+  padding: 10px 0 10px 40px;
   margin: 0 0 0 -10px;
   z-index: 400;
-  ${MenuItemStyle}:hover & {
-    display: block;
-  }
 `
 
 const SubItemStyle = styled.li`
@@ -131,34 +121,15 @@ const SubLinkStyle = styled(props => <Link {...props} />)`
   color: rgba(255, 255, 255, 0.7);
   line-height: 1.25rem;
   text-decoration: none;
-  &:hover {
-    color: rgba(255, 255, 255, 1);
-  }
-`
-
-const SubLinkIconStyle = styled(props => <Link {...props} />)`
-  color: rgba(255, 255, 255, 0.7);
-  line-height: 1.25rem;
-  text-decoration: none;
-  float: right;
-  &:hover {
-    color: rgba(255, 255, 255, 1);
-  }
 `
 
 const DroprightContentStyle = styled.ul`
-  display: none;
-  position: absolute;
+  display: block;
   background: #0a0a0a;
   min-width: 160px;
   z-index: 1;
   list-style: none;
   padding: 10px 0;
-  left: 150px;
-  margin: -30px 0 0 5px;
-  ${SubItemStyle}:hover & {
-    display: block;
-  }
 `
 
-export default Menu
+export default MenuBurger
