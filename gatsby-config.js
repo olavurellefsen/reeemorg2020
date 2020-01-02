@@ -16,6 +16,13 @@ module.exports = {
               maxWidth: 720,
             },
           },
+          {
+            resolve: `gatsby-remark-copy-linked-files`,
+            options: {
+              destinationDir: f => `uploads/${f.name}`,
+              ignoreFileExtensions: [`png`, `jpg`, `jpeg`, `bmp`, `tiff`],
+            },
+          },          
         ],
       },
     },
