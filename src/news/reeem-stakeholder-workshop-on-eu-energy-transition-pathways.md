@@ -11,6 +11,6 @@ Organised jointly by KTH, University of Stuttgart and University College London,
 
 The core of the workshop consisted in four work sessions, organised in the format of a WARP conference. In the first two sessions, a base pathway was agreed upon by the participants and key assumptions collected for it. In the last two sessions, potential deviations from the base pathway and disruptions were suggested by the participants.
 
-The agenda is available [HERE](https://www.reeem.org/wp-content/uploads/2017/11/REEEM-1stWS_agenda.pdf).
+The agenda is available [HERE](../uploads/2017/11/REEEM-1stWS_agenda.pdf).
 
 ![Stakeholder workshop participants](./images/Picture.jpg)

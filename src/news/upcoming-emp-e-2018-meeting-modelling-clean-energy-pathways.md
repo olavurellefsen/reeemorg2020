@@ -1,7 +1,7 @@
 ---
 title: "Upcoming EMP-E 2018 meeting: Modelling clean energy pathways"
 date: "2018-03-14"
-coverImage: "./images/20190910_REEEM_final_news_Booklet.jpg"
+coverImage: "./images/modellingcleanenergy.png"
 path: /2018/03/14/upcoming-emp-e-2018-meeting-modelling-clean-energy-pathways/
 ---
 

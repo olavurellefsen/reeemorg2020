@@ -1,7 +1,7 @@
 ---
 title: "Special Issue on EMP-E 2017 'Energy transition and decarbonisation pathways for the EU' now online"
 date: "2018-03-14"
-coverImage: "./images/20190910_REEEM_final_news_Booklet.jpg"
+coverImage: "./images/energystrategy.png"
 path: /2018/03/14/special-issue-on-emp-e-2017-energy-transition-and-decarbonisation-pathways-for-the-eu-now-online/
 ---
 

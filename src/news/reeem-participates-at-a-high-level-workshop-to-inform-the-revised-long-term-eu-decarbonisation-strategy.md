@@ -1,7 +1,7 @@
 ---
 title: "REEEM participates at a High Level Workshop to inform the revised long-term EU decarbonisation strategy"
 date: "2018-09-07"
-coverImage: "./images/20190910_REEEM_final_news_Booklet.jpg"
+coverImage: "./images/workshop.png"
 path: /2018/09/07/reeem-participates-at-a-high-level-workshop-to-inform-the-revised-long-term-eu-decarbonisation-strategy/
 ---
 

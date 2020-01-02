@@ -1,7 +1,7 @@
 ---
 title: "Upcoming: REEEM participates in the Decarbonisation Networking Workshop in Brussels"
 date: "2018-02-05"
-coverImage: "./images/20190910_REEEM_final_news_Booklet.jpg"
+coverImage: "./images/workshop.png"
 path: /2018/02/05/upcoming-reeem-participates-to-the-decarbonisation-networking-workshop-in-brussels/
 ---
 

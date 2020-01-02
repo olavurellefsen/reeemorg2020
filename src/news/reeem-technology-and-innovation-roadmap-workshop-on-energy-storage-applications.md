@@ -1,7 +1,7 @@
 ---
 title: "REEEM Technology and Innovation Roadmap Workshop on Energy Storage Applications"
 date: "2017-05-24"
-coverImage: "./images/20190910_REEEM_final_news_Booklet.jpg"
+coverImage: "./images/workshop-17th-April-120x120.jpg"
 path: /2017/05/24/reeem-technology-and-innovation-roadmap-workshop-on-energy-storage-applications/
 ---
 
@@ -15,11 +15,29 @@ We had the chance to welcome a representative of the European Commission, **Dimi
 
 **Agenda**
 
-[REEEM Workshop on Storage](https://www.reeem.org/wp-content/uploads/2017/05/REEEM-Workshop-on-Storage_Agenda.pdf)
+[REEEM Workshop on Storage](../uploads/2017/05/REEEM-Workshop-on-Storage_Agenda.pdf)
 
 **Pictures**
 
-\[smartslider3 slider=3\]
+![REEEM workshop - European Commission](./images/1REEEM-Workshop_European-Commission.jpeg)
+
+![REEEM workshop - Solar Power Europe](./images/2REEEM-Workshop_SolarPower-Europe.jpeg)
+
+![REEEM workshop - ABB](./images/3REEEM-Workshop_ABB.jpeg)
+
+![REEEM workshop - InnoEnergy](./images/4REEEM-Workshop_InnoEnergy.jpeg)
+
+![REEEM workshop - Elestor](./images/5REEEM-Workshop_Elestor.jpeg)
+
+![REEEM workshop - Eldev](./images/6REEEM-Workshop_Eldev.jpeg)
+
+![REEEM workshop - Skeleton](./images/7REEEM-Workshop_Skeleton.jpeg)
+
+![REEEM workshop - Northvolt](./images/8REEEM-Workshop_Northvolt.jpeg)
+
+![REEEM workshop - Roundtables](./images/9REEEM-Workshop_Roundtables.jpeg)
+
+![REEEM workshop - Roundtables](./images/10REEEM-Workshop_Roundtables.jpeg)
 
 **Picture Metadata**
 

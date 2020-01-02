@@ -1,7 +1,7 @@
 ---
 title: "REEEM workshop in Stuttgart 3-4 July"
 date: "2017-06-30"
-coverImage: "./images/20190910_REEEM_final_news_Booklet.jpg"
+coverImage: "./images/workshop.png"
 path: /2017/06/30/reeem-workshop-in-stuttgart-3-4-july/
 ---
 

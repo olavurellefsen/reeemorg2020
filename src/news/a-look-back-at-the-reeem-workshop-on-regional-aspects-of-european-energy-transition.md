@@ -17,40 +17,38 @@ The workshop was finalized with the discussion that covered both modelling and p
 
 Workshop‘s presentations are provided below.
 
-\[gallery link="file" columns="2" ids="2503,2505,2504,2506,2502,2512,2513,2516,2501"\]
-
- 
-
- 
-
- 
-
- 
+![Lina Sabaitiene Vice-minister of Energy of Lithuania | © Vygaudas Juozaitis LNB](./images/Lina-Sabaitiene-Vice-minister-of-Energy-of-Lithuania-min.jpg)
+![Vidas Lekavicius from LEI | © Vygaudas Juozaitis LNB](./images/Vidas-Lekavicius-LEI-min.jpg)
+![Sanna Syri from Aalto University | © Vygaudas Juozaitis LNB](./images/Sanna-Syri-Aalto-min.jpg)
+![Virgilijus Poderys Member of Parliament of Lithuania Chair of Energy and Sustainable Development Commission | © Vygaudas Juozaitis LNB](./images/Virgilijus-Poderys-Member-of-Parliament-of-Lithuania-Chair-of-Energy-and-Sustainable-Development-Commission-min.jpg)
+![Audience at REEEM workshop | © Vygaudas Juozaitis LNB](./images/20190604_1258-8G4A3684-min.jpg)
+![Linas Martisauskas from LEI | © LEI](./images/Linas-Martisauskas-LEI-min.jpg)
+![Arvydas Galinis from LEI | © LEI](./images/Arvydas-Galinis-LEI-min.jpg)
+![Georgios Avgerinopoulos from KTH | © LEI](./images/Georgios-Avgerinopoulos-KTH-min-1.jpg)
+![Audience at REEEM workshop | © Vygaudas Juozaitis LNB](./images/20190604_1258-8G4A3678-min.jpg)
 
 **Presentation Downloads**
 
- 
-
 Georgios Avgerinopoulos
 
-[Integrated impact assessment of decarbonisation pathways for the](https://www.reeem.org/wp-content/uploads/2019/06/Avgerinopoulos-min.pdf) [European Union - Insights from the REEEM Project](_wp_link_placeholder)
+[Integrated impact assessment of decarbonisation pathways for the](../uploads/2019/06/Avgerinopoulos-min.pdf) [European Union - Insights from the REEEM Project](_wp_link_placeholder)
 
 Linas Martišauskas
 
-[Assessment of energy security coefficient for Baltic countries and Finland considering energy system resilience to disruptions](https://www.reeem.org/wp-content/uploads/2019/06/Martisauskas-min.pdf)
+[Assessment of energy security coefficient for Baltic countries and Finland considering energy system resilience to disruptions](../uploads/2019/06/Martisauskas-min.pdf)
 
 Arvydas Galinis
 
-[Energy Security in Baltic Countries and Finland: development of electricity systems in Baltic States and Finland taking into account security and reliability aspects](https://www.reeem.org/wp-content/uploads/2019/06/Galinis-min.pdf)
+[Energy Security in Baltic Countries and Finland: development of electricity systems in Baltic States and Finland taking into account security and reliability aspects](../uploads/2019/06/Galinis-min.pdf)
 
 Vidas Lekavičius
 
-[Distributional and energy poverty impacts of energy transition](https://www.reeem.org/wp-content/uploads/2019/06/Lekavicius_REEEM-min.pdf)
+[Distributional and energy poverty impacts of energy transition](../uploads/2019/06/Lekavicius_REEEM-min.pdf)
 
 Sanna Syri
 
-[The role of district heating in decarbonization: insights from the case study on Helsinki region, Kaunas and Warsaw](https://www.reeem.org/wp-content/uploads/2019/06/Syri_DH_syri_Vilna_04062019-2-min.pdf)
+[The role of district heating in decarbonization: insights from the case study on Helsinki region, Kaunas and Warsaw](../uploads/2019/06/Syri_DH_syri_Vilna_04062019-2-min.pdf)
 
 Discussion
 
-[Regional Aspects of European Energy Transition](https://www.reeem.org/wp-content/uploads/2019/06/Discussion_REEEM-min.pdf)
+[Regional Aspects of European Energy Transition](../uploads/2019/06/Discussion_REEEM-min.pdf)

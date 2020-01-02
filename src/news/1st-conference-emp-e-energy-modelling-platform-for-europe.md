@@ -1,7 +1,7 @@
 ---
 title: "First Conference of the EMP-E “Energy Modelling Platform for Europe”"
 date: "2017-06-01"
-coverImage: "./images/20190910_REEEM_final_news_Booklet.jpg"
+coverImage: "./images/EMPE_720x360.jpg"
 path: /2017/06/01/1st-conference-emp-e-energy-modelling-platform-for-europe/
 ---
 
@@ -19,4 +19,24 @@ The first EMP-E has set the base for this endeavour and has shown that there alr
 
 The REEEM team would like to thank the European Commission for hosting the conference.
 
-Results, Speeches and Impressions will be updated constantly in the next weeks. Please visit the [EMP-E pages](https://www.reeem.org/index.php/emp-e-main/) for further information.
+Results, Speeches and Impressions will be updated constantly in the next weeks. Please visit the [EMP-E pages](/emp-e-main/) for further information.
+
+
+ 
+[Abstract of the speeches](../uploads/2017/05/Abstracts_Speeches.pdf)
+
+[Programme](../uploads/2017/05/Programme_v03.pdf)
+
+[Focus Group 1: Designing and comparing energy transition pathways](../uploads/2017/04/EMP_E-Focus_Group_Pathways.pdf)
+
+[Focus Group 2: Capacity expansion planning in high RES worlds](../uploads/2017/05/EMP-E_Focus-Group_Capacity-expansion-in-high-RES-worlds.pdf)
+
+[Focus Group 3: Publishing in open databases and increasing transparency and reproducibility](../uploads/2017/11/EMP-E-Focus-Group-3-Publishing-in-open-databases.pdf)
+
+[Focus Group 4: Bridging the gap between policy questions and models](../uploads/2017/05/EMP-E_Focus-Group_Bridging-the-gap-between-policy-questions-and-models.pdf)
+
+[Focus Group 5: Modelling of environmental impacts and externalities](../uploads/2017/04/EMP-E_Focus-Group_Modelling-of-environmental-impacts-and-externalities.pdf)
+
+[Focus Group 6: Methodologies for linking models](../uploads/2017/05/EMP-E_Focus-Group06_Linking-models_V03.pdf)
+
+[Call for papers](../uploads/2017/06/ESR_Call-for-papers_02.pdf)

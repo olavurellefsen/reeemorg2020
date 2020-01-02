@@ -7,7 +7,7 @@ path: /2019/02/25/starting-today-online-course-on-battery-storage-technology/
 
 ![Battery workshop](./images/Workshop_REEEM.png)
 
-Based on the results of the first [REEEM roadmap on battery storage application (see deliverable D2.1a](https://www.reeem.org/wp-content/uploads/2018/09/D2.1a.pdf)), an online course has been designed and produced by [InnoEnergy](http://www.innoenergy.com/) in order to answer the question: **Could battery storage technology be the answer to imbalanced energy demands?**
+Based on the results of the first [REEEM roadmap on battery storage application (see deliverable D2.1a](../uploads/2018/09/D2.1a.pdf)), an online course has been designed and produced by [InnoEnergy](http://www.innoenergy.com/) in order to answer the question: **Could battery storage technology be the answer to imbalanced energy demands?**
 
 This course primarily is based on the analyses and findings of the REEEM roadmap and will cover:
 

@@ -13,6 +13,6 @@ Energy efficiency is at the top of the EU priorities for the Energy Union, as st
 
 During this **REEEM Technology and Innovation Roadmap Workshop on Energy Efficiency in Buildings**, the roadmap’s and its preliminary findings will be presented in the morning session, you will be invited to identify innovative technology and policy scenarios that could support Europe toward its full decarbonization of building stocks by 2050, during the roundtable session.
 
-**For the official invitation and the complete agenda, please see [here](https://www.reeem.org/wp-content/uploads/2019/02/Invitation_and_Agenda_EIT_Workshop.pdf).**
+**For the official invitation and the complete agenda, please see [here](../uploads/2019/02/Invitation_and_Agenda_EIT_Workshop.pdf).**
 
 **If you want to participate, please register [here. ](https://docs.google.com/forms/d/e/1FAIpQLSern0u-fbbBIRJ_kOqksFhDODZJ3aFIEuoTM45YvsqMIoIPLQ/viewform)**

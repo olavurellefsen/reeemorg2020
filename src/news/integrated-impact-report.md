@@ -9,4 +9,4 @@ path: /2018/08/30/integrated-impact-report/
 
 The REEEM project aims at analysing how different technologies can impact the transition to a low carbon economy in the EU28+2 (Norway and Switzerland) by 2050. To do so, a suite of models is used, looking at different aspects (macroeconomics, energy system optimisation, LCA of energy technologies etc.) and on different scales spanning from pan EU28+2 to case studies covering either single countries or even municipalities. In many cases those models are soft-linked resulting in multi-modelling framework. This is performed by analysing the outcome of the aforementioned modelling framework applied on a number of pathways defined in the REEEM project.
 
-For deeper information have a look at our [blog-entry](https://www.reeem.org/index.php/reeem-blog/). The full report will be online as soon as it is approved by the European Commission. We will announce that with a short news.
+For deeper information have a look at our [blog-entry](/reeem-blog/). The full report will be online as soon as it is approved by the European Commission. We will announce that with a short news.

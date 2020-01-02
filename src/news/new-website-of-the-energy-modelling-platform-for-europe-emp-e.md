@@ -1,7 +1,7 @@
 ---
 title: "New website of the Energy Modelling Platform for Europe (EMP-E)"
 date: "2018-02-05"
-coverImage: "./images/20190910_REEEM_final_news_Booklet.jpg"
+coverImage: "./images/EMPE_720x360.jpg"
 path: /2018/02/05/new-website-of-the-energy-modelling-platform-for-europe-emp-e/
 ---
 
