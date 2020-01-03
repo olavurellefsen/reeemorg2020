@@ -99,6 +99,7 @@ const LeftAreaButton = styled.button`
   position: absolute;
   width: 54px;
   height: 54px;
+  padding: 10px;
   margin: 0 -54px 0 0;
   border: 0;
   &:focus {

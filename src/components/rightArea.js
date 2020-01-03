@@ -59,6 +59,7 @@ const RightAreaButton = styled.button`
   position: absolute;
   width: 54px;
   height: 54px;
+  padding: 10px;
   margin: 0 0 0 -54px;
   border: 0;
   &:focus {
